@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Богдан & Юлия — Свадьба</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <img src="cover.jpg" alt="Фото пары" class="hero-img">
+    <div class="overlay-text">
+      <h1>Богдан & Юлия</h1>
+      <p>17 августа 2025, Казань</p>
+    </div>
+  </header>
+
+  <section class="countdown">
+    <h2>До свадьбы осталось</h2>
+    <div id="timer" class="timer"></div>
+  </section>
+
+  <section class="timeline-section">
+    <h2>ПЛАН ДНЯ<br><span>timing</span></h2>
+    <div class="timeline">
+      <div class="timeline-event">
+        <img src="step1.png" alt="Сбор гостей">
+        <p><strong>16:30</strong><br>Сбор гостей</p>
+      </div>
+      <div class="timeline-event">
+        <img src="step2.png" alt="Церемония">
+        <p><strong>17:00</strong><br>Торжественное начало</p>
+      </div>
+      <div class="timeline-event">
+        <img src="step3.png" alt="Банкет">
+        <p><strong>18:00</strong><br>Банкет</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="rsvp-section">
+    <h2>ПОДТВЕРДИТЕ ПРИСУТСТВИЕ:</h2>
+    <p>Будем ждать ответ до <strong>01.08.2025</strong></p>
+    <form>
+      <label>Ваше имя и фамилия:</label>
+      <input type="text" placeholder="Иван Иванов/Мария Иванова" required>
+      <div class="radio-group">
+        <p>Планируете ли Вы присутствовать на свадьбе?</p>
+        <label><input type="radio" name="attend" required> Да, с удовольствием!</label>
+        <label><input type="radio" name="attend"> К сожалению, не смогу.</label>
+      </div>
+      <button type="submit">ОТПРАВИТЬ</button>
+    </form>
+    <img src="leaf.png" class="decor-leaf" alt="Декор">
+  </section>
+
+  
+  <section class="map-section">
+    <h2>Как добраться</h2>
+    <p>Банкетный зал "Millet", г. Казань</p>
+    <a class="map-button" href="https://yandex.ru/maps/?text=Банкетный%20зал%20Millet%20Казань" target="_blank">
+      Открыть карту
+    </a>
+  </section>
+
+  <footer>
+    <p>г. Казань, Банкетный зал Millet</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
